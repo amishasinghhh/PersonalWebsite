@@ -2,11 +2,11 @@
 
 .Hi {
     color: #ae95ca;
-    font-size: 60px;
+    font-size: 8vw;
     line-height: 20px;
     text-align: left;
     flex-direction: row;
-    padding-left: 1.5%;
+    padding-left: 6%;
     font-weight: bold;
 
 }
@@ -27,18 +27,21 @@
 .Amisha {
     color: white;
     text-align: left;
-    line-height: 50px;
-    padding-left: 1.5%;
+    line-height: 13vw;
+    padding-left: 6%;
     float: left;
-    font-size: 500%;
-    margin-top: 30px;
-    padding-bottom: 28px;
-    animation: typewriter 0.5s steps(11) 1s 1 normal both,
-             blinkTextCursor 1000ms steps(11) infinite normal;
+    font-size: 13vw;
+    margin-top: 5vw;
+    padding-bottom: 5vw;
+    font-weight: bolder;
+    animation: typewriter 0.5s steps(12) 1s 1 normal both,
+             blinkTextCursor 1000ms steps(12) infinite normal;
+
 }
+
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 6.2em;}
+  to{width: 6.5em;}
 
 }
 @keyframes blinkTextCursor{

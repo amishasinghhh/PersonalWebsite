@@ -6,7 +6,7 @@ class Header extends React.Component{
         return (
             <>
             <div>
-            <h1 class = "Hi">Hi! I'm</h1>
+            <p class = "Hi">Hi! I'm</p>
             <div class = "first Amisha">Amisha Singh</div>
             </div>
             </>
