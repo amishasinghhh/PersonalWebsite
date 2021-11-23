@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.Hi {
+    color: #ae95ca;
+    font-size: 60px;
+    line-height: 20px;
+    text-align: left;
+    flex-direction: row;
+    padding-left: 1.5%;
+    font-weight: bold;
+
+}
+
+.first{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+.Amisha {
+    color: white;
+    text-align: left;
+    line-height: 50px;
+    padding-left: 1.5%;
+    float: left;
+    font-size: 500%;
+    margin-top: 30px;
+    padding-bottom: 28px;
+    animation: typewriter 0.5s steps(11) 1s 1 normal both,
+             blinkTextCursor 1000ms steps(11) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 6.2em;}
+
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: transparent;}
+  to{border-right-color: rgba(255,255,255,.75);}
+}
+
+
+h3{
+    color: white;
+    text-align: left;
+    padding-left: 1.5%;
+    padding-top: 14px;
+    line-height: 1px;
+}
+
+
+
+
+
+
+
+
