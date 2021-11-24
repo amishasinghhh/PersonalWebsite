@@ -1,13 +1,14 @@
 import React from 'react'
 import './header.css'
+import ReactDOM from 'react-dom';
 
 class Header extends React.Component{
     render(){
         return (
             <>
             <div>
-            <p class = "Hi">Hi! I'm</p>
-            <div class = "first Amisha">Amisha Singh</div>
+            <h3 class = "Hi">Hi! I'm</h3>
+            <div class = "first Amisha">Amisha Singh </div>
             </div>
             </>
         );

@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 .Hi {
-    color: #ae95ca;
+    color: black;
     font-size: 8vw;
     line-height: 20px;
     text-align: left;
@@ -24,16 +24,37 @@
     transform: translateY(-50%);    
 }
 
-.Amisha {
-    color: white;
+.div, .Amisha {
     text-align: left;
     line-height: 13vw;
     padding-left: 6%;
     float: left;
-    font-size: 13vw;
+    font-size: 12vw;
     margin-top: 5vw;
-    padding-bottom: 5vw;
+    padding-bottom: 3vw;
     font-weight: bolder;
+    color:black;
+	font-weight: 900;
+    background-color: white;
+	text-shadow: 
+		-0.0075em 0.0075em 0 mix(#fff, #e91e63, 94%),
+		0.005em 0.005em 0 mix(#fff, #e91e63, 60%),
+		0.01em 0.01em 0 mix(#fff, #e91e63, 62%), 
+		0.015em 0.015em mix(#fff, #e91e63, 64%), 
+		0.02em 0.02em 0 mix(#fff, #e91e63, 66%), 
+		0.025em 0.025em 0 mix(#fff, #e91e63, 68%),
+		0.03em 0.03em 0 mix(#fff, #e91e63, 70%),
+		0.035em 0.035em 0 mix(#fff, #e91e63, 72%),
+        -0.0075em 0.0075em 0 mix(#fff, #e91e63, 94%),
+		0.005em 0.005em 0 mix(#fff, #e91e63, 60%),
+		0.01em 0.01em 0 mix(#fff, #e91e63, 62%), 
+		0.015em 0.015em mix(#fff, #e91e63, 64%), 
+		0.02em 0.02em 0 mix(#fff, #e91e63, 66%), 
+		0.025em 0.025em 0 mix(#fff, #e91e63, 68%),
+		0.03em 0.03em 0 mix(#fff, #e91e63, 70%),
+		0.035em 0.035em 0 mix(#fff, #e91e63, 72%);
+
+
     animation: typewriter 0.5s steps(12) 1s 1 normal both,
              blinkTextCursor 1000ms steps(12) infinite normal;
 
@@ -41,12 +62,12 @@
 
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 6.5em;}
+  to{width: 7.13em;}
 
 }
 @keyframes blinkTextCursor{
   from{border-right-color: transparent;}
-  to{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color:black;}
 }
 
 

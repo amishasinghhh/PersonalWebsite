@@ -1,0 +1,20 @@
+li{
+    white-space: pre;
+    text-align: left;
+    clear:left;
+    float: left;
+    list-style-type:none;
+    color: white;
+}
+
+ul{
+    white-space: pre;
+    text-align: left;
+    clear:left;
+    padding-left: 6%;
+    font-weight: bolder;
+    display:inline;
+    font-size: 4.0vw;
+    background-color: black;
+}
+
